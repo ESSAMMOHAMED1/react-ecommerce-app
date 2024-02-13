@@ -5,7 +5,7 @@ const Recommended = () => {
     <>
       <div>
         <h2 className="recommended-title">Recommended</h2>
-        <div className="recommended-btns">
+        <div className="recommended-flex">
           <button className="btns">All Prodects</button>
           <button className="btns">Nike</button>
           <button className="btns">Adidas</button>
