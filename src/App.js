@@ -4,11 +4,10 @@ import Products from "./views/Products/Products";
 import Sidebar from "./views/Sidebar/Sidebar";
 import { useState } from "react";
 function App() {
-const [SelectedCategory,setSelectedCategory] = useState(null)
-const [query, setQuery] = useState("")
+  
   return (
     <>
-      <Sidebar/>
+      <Sidebar />
       <Navigation />
       <Recommended />
       <Products />
