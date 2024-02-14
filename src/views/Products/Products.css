@@ -45,3 +45,7 @@
   .bag-icon {
     color: #535353;
   }
+
+  .card-container img{
+    object-fit: cover;
+  }
