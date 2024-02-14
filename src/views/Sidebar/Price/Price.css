@@ -5,3 +5,27 @@
   .ml {
     margin-left: 20px;
   }
+
+.price-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.price-title:hover {
+  color: #4e8cff;
+}
+
+.price-options {
+  margin-left: 20px;
+}
+
+.price-option {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.price-option:hover {
+  color: #4e8cff;
+}
